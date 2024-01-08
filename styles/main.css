@@ -13,6 +13,11 @@ body
 {
     background-color: var(--rs-bg);
     margin: 5rem 0;
+    min-height: 500px;
+}
+
+.rs-section-headless{
+    margin-top: -5rem;
 }
 
 hero
@@ -26,7 +31,7 @@ hero #profile-pic
     position: relative;
     margin: 0 auto;
     display: block;
-    bottom: -20rem;
+    bottom: -25rem;
     z-index: 2;
 }
 
