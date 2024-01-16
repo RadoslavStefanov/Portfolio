@@ -1,17 +1,16 @@
 :root 
 {
-    --rs-bg: #2d2d2d;
+    --rs-bg: #1e1e1e;
     --rs-accent: #3fbb71;
 }
 
 body
 {
-
+    background-color: var(--rs-bg)
 }
 
 .rs-section
 {
-    background-color: var(--rs-bg);
     margin: 5rem 0;
     min-height: 500px;
 }
