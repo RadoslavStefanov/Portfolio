@@ -1,12 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400&family=Montserrat:wght@100;400&display=swap');
 :root 
 {
     --rs-bg: #1e1e1e;
     --rs-accent: #3fbb71;
+    --rs-white: #FFFFFF;
 }
 
 body
 {
     background-color: var(--rs-bg)
+}
+
+.navbar-brand img{
+    width: 5rem;
+}
+
+.navbar-toggler-icon{
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='rgba%280, 180, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>")!important;
+}
+
+.navbar-toggler{
+    border: var(--bs-border-width) solid rgb(40 255 0 / 10%);
+}
+
+.navbar-collapse{
+    flex-grow: 0 !important;
+}
+
+
+.navbar-nav .nav-link:hover::after {
+    content: '';
+    position: absolute;
+    display: flex;
+    width: 100%;
+    left: 0px;
+    height: 3px;
+    background-color: var(--rs-accent);
+  }
+
+.navbar-nav a,.nav-link:hover{
+    color: var(--rs-white);
+    position: relative;
+    margin: 0 0.2rem;
+    font-family: 'IBM Plex Mono', monospace !important;
+    font-weight: 400;
+}
+
+.navbar-nav a.rs-active{
+    color: var(--rs-accent)!important;
 }
 
 .rs-section
