@@ -7,9 +7,14 @@
     --rs-white: #FFFFFF;
 }
 
+.rs-centered{
+    text-align: center;
+}
+
 body
 {
-    background-color: var(--rs-bg)
+    background-color: var(--rs-bg);
+    overflow-x: hidden;
 }
 
 .navbar-brand img{
@@ -60,10 +65,6 @@ body
     margin-top: -5rem;
 }
 
-.hero{
-    text-align: center;
-}
-
 .hero img{
     border-radius: 50%;
     border: 2px solid var(--rs-accent);
@@ -97,4 +98,21 @@ h2{
 .rs-index-info .entry{
     display: flex;
     margin: 0 7rem;
+}
+
+.tc-arrow{
+    width: 2.5rem;
+    transition: 0.1s ease-in-out;
+}
+
+.tc-arrow:hover{
+    scale: 1.2;
+    cursor: pointer;
+}
+
+.rs-dec-1{
+    position: absolute;
+    right: 0;
+    width: 20rem;
+    top: 70rem;
 }
