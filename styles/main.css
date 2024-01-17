@@ -11,6 +11,10 @@
     text-align: center;
 }
 
+.rs-p-top{
+    padding-top: 3rem;
+}
+
 body
 {
     background-color: var(--rs-bg);
@@ -42,7 +46,11 @@ body
     left: 0px;
     height: 1px;
     background-color: var(--rs-accent);
-  }
+}
+
+.navbar-nav a{
+    font-size: 1.3rem;
+}
 
 .navbar-nav a,.nav-link:hover{
     color: var(--rs-white);
@@ -57,7 +65,7 @@ body
 
 .rs-section
 {
-    margin: 5rem 0;
+    margin: 3rem 0;
     min-height: 500px;
 }
 
@@ -76,7 +84,7 @@ body
     margin: 0 0.3rem
 }
 
-h1,h2,.rs-index-info p{
+h1,h2,h3,.carousel a,.rs-index-info p,.navbar-nav a{
     font-family: 'IBM Plex Mono', monospace !important;
     color: var(--rs-white);
 }
@@ -103,6 +111,7 @@ h2{
 .tc-arrow{
     width: 2.5rem;
     transition: 0.1s ease-in-out;
+    margin: 0 1.2rem;
 }
 
 .tc-arrow:hover{
@@ -115,4 +124,64 @@ h2{
     right: 0;
     width: 20rem;
     top: 70rem;
+}
+
+.rs-tech-carousel{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+   
+}
+
+.carousel{
+    position: relative;
+    display: inline-flex;
+    overflow: hidden;
+    width: 45rem;
+    padding: 1rem 0 0 0;
+}
+
+.carousel img{
+    width: 6rem;
+    transition: all .1s ease-in-out;
+    position: relative;
+}
+
+.carousel a{
+    display: block;
+    min-width: 6rem;
+    margin: 0 1.5rem;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+}
+
+.carousel a p{
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    display: block;
+}
+
+.carousel a:hover{
+    cursor: pointer;
+}
+.carousel a:hover img{    
+    scale: 1.2;
+}
+
+.carousel-navigation{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: var(--rs-accent);
+}
+
+.carousel-navigation i{
+    transition: 0.1s ease-in-out;
+    margin: 0 0.3rem;
+}
+
+.carousel-navigation i:hover{
+    cursor: pointer;
+    transform: rotate(45deg);
 }
