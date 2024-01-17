@@ -38,7 +38,7 @@ body
 }
 
 
-.navbar-nav .nav-link:hover::after {
+.navbar-nav .nav-link:hover::after, .rs-active::after{
     content: '';
     position: absolute;
     display: flex;
