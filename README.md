@@ -18,3 +18,7 @@ BootStrap
 
 ⚠️  Important  ⚠️
 The project is work in progress. Any images/video/fonts etc. that need licenses, will be licensed completely after the project completion.
+
+## Current page preview (Subject to rapid change)
+![image](https://github.com/RadoslavStefanov/Portfolio/assets/72268734/bf8a37fd-671d-4eae-8791-9549437f1e4d)
+![image](https://github.com/RadoslavStefanov/Portfolio/assets/72268734/ad2ae454-3822-4c4a-85cb-36fde0c3db0c)
