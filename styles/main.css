@@ -131,6 +131,13 @@ h2{
     top: 80vh;
 }
 
+.rs-dec-2{
+    position: absolute;
+    left: -5rem;
+    width: 10vw;
+    top: 150rem;
+}
+
 .rs-tech-carousel{
     display: flex;
     align-items: center;
@@ -199,7 +206,7 @@ h2{
 
 .rs-t2i-right{
     color: var(--rs-white);
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'IBM Plex Mono', monospace !important;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -215,6 +222,30 @@ h2{
 
 .rs-t2i-right img{
     float: right;
+    width: 30vw;
+    max-width: 40rem;
+    display: inline;
+}
+
+.rs-hero-2{    
+    max-width: 70vw;
+    margin: 0 auto;
+    margin-top: 8rem;
+    color: var(--rs-white);
+    font-family: 'IBM Plex Mono', monospace !important;
+}
+
+.rs-hero-2 p{
+    max-width: 45vw;
+}
+
+.rs-hero-2 h3{    
+    font-size: 3rem;
+    color: var(--rs-accent);
+    font-weight: 600;
+}
+
+.rs-hero-2 img{
     width: 30vw;
     max-width: 40rem;
     display: inline;
