@@ -21,6 +21,10 @@ body
     overflow-x: hidden;
 }
 
+nav{
+    background: var(--rs-bg);
+}
+
 .navbar-brand img{
     width: 7rem;
 }
@@ -121,9 +125,10 @@ h2{
 
 .rs-dec-1{
     position: absolute;
-    right: 0;
-    width: 20rem;
-    top: 70rem;
+    left: -5rem;
+    transform: rotate(180deg);
+    width: 10vw;
+    top: 80vh;
 }
 
 .rs-tech-carousel{
@@ -184,4 +189,33 @@ h2{
 .carousel-navigation i:hover{
     cursor: pointer;
     transform: rotate(45deg);
+}
+
+.rs-sectioned-h{
+    text-align: center;
+    border-bottom: 1px solid var(--rs-accent);
+    margin: 0 auto;
+}
+
+.rs-t2i-right{
+    color: var(--rs-white);
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    max-width: 70vw;
+    gap: 4rem;
+}
+
+.rs-t2i-right p{
+    float: left;
+    display: inline;
+    text-align: justify;
+}
+
+.rs-t2i-right img{
+    float: right;
+    width: 30vw;
+    max-width: 40rem;
+    display: inline;
 }
