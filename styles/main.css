@@ -290,7 +290,7 @@ h2{
 }
 
 .footer-bs {
-	padding: 60px 40px;
+	padding: 120px 40px;
 	color: rgba(255,255,255,1.00);
 	border-bottom-right-radius: 6px;
 	border-top-left-radius: 0px;
@@ -362,7 +362,7 @@ h2{
 }
 .bgBottom {
     z-index: 5;
-    opacity: 0.75;
+    opacity: 0.5;
 }
 .wave {
     position: absolute;
@@ -377,10 +377,7 @@ h2{
     background-size: 50% 100px;
 }
 .waveAnimation .waveTop {
-  animation: move-wave 3s;
-   -webkit-animation: move-wave 3s;
-   -webkit-animation-delay: 1s;
-   animation-delay: 1s;
+  animation: move_wave 25s linear infinite;
 }
 .waveMiddle {
     background-size: 50% 120px;
