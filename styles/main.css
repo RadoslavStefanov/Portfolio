@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400&family=Montserrat:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600&family=Montserrat:wght@100;400;500&display=swap');
 
 :root 
 {
@@ -251,16 +251,83 @@ h2{
     display: inline;
 }
 
+.rs-contact{
+    font-family: 'IBM Plex Mono', monospace !important;
+}
 
+.rs-contact h3{
+    font-size: 2.5rem;
+    color: var(--rs-white);
+    font-weight: 600;
+}
 
+.rs-contact h3 p{
+    color: var(--rs-accent);
+    display: inline;
+}
 
+.rs-contact h4{
+    font-weight: 400;
+}
 
+.rs-contactwrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: 5rem auto;
+    gap: 4rem;
+}
 
+.rs-cf-info{
+    text-align: start;
+}
+
+.rs-cf-info h4{
+    font-size: 2.2rem;
+    color: var(--rs-accent);
+}
+
+.rs-cf-info p{
+    color: var(--rs-white);
+}
+
+.rs-contact-form input, .rs-contact-form textarea{
+    background: #2d2d2d;
+    border: 0;
+    border-radius: 0.4rem;
+    padding: 0.6rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    box-shadow: 3px 7px 5px 0px rgba(22, 22, 22, 0.75);
+    color: var(--rs-white);
+}
+
+.rs-contact-form{
+    text-align: start;
+}
+
+.rs-contact-form button{
+    background-color: var(--rs-accent);
+    font-weight: 600;
+    padding: 1rem 3rem;
+    color: var(--rs-white);
+    border: 0;
+    border-radius: 0.4rem;
+}
+
+#rs-cf-f-wrapper{
+    min-width: 21rem;
+}
+
+.footer-decor{
+    margin-top: 5rem;
+    width: 14rem;
+}
 
 .rs-footer{
     width: 100%!important;
     border-top: 3px solid var(--rs-accent);
-    margin-top: 5rem;
     position: relative;
 }
 
