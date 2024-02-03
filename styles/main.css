@@ -252,6 +252,7 @@ h2{
 }
 
 .rs-contact{
+    margin-top: 15rem;
     font-family: 'IBM Plex Mono', monospace !important;
 }
 
@@ -321,7 +322,7 @@ h2{
 }
 
 .footer-decor{
-    margin-top: 5rem;
+    margin-top: -8rem;
     width: 14rem;
 }
 
