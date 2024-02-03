@@ -5,6 +5,7 @@
     --rs-bg: #1e1e1e;
     --rs-accent: #3fbb71;
     --rs-white: #FFFFFF;
+    --rs-gray: #2d2d2d;
 }
 
 .rs-centered{
@@ -249,6 +250,101 @@ h2{
     width: 30vw;
     max-width: 40rem;
     display: inline;
+}
+
+.rs-projects-controls button{
+    margin: 2rem 1rem;
+    width: 5rem;
+    border: 0;
+    border-bottom: 2px solid var(--rs-gray);
+    background: none;
+    color: var(--rs-bg);
+    transition: 0.1s all ease-in-out;
+}
+
+.rs-projects-controls button:hover{
+    border-bottom: 5px solid var(--rs-accent);
+}
+
+.rs-projects-controls button.active{
+    border-bottom: 5px solid var(--rs-accent);
+}
+
+.rs-projects-preview{
+    width: 70vw;
+    margin: 2rem auto;
+}
+
+.rs-project{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: start;
+    margin-bottom: 3rem;
+    gap: 2rem;    
+}
+
+
+.rs-project-video-wrap{
+    position: relative;
+    width: 25%;
+}
+
+.rs-project.flipped{
+    text-align: end;
+}
+
+.rs-showcase{
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    transition: 0.3s all ease-in-out;
+}
+
+.rs-project:hover .rs-showcase{
+    opacity: 100;
+    scale: 130%;
+}
+
+.rs-project img{
+    width: 100%;
+    transition: 0.3s all ease-in-out;
+}
+
+.rs-project-info{
+    width: 75%;
+}
+
+.rs-project-info > a{
+    font-size: 1.7rem;
+    font-family: 'IBM Plex Mono', monospace !important;
+    text-decoration: none;
+    color: var(--rs-accent);
+    font-weight: 600;
+}
+
+.rs-project-info > a:hover{
+    border-bottom: 1px solid var(--rs-accent);
+}
+
+.rs-project-info > p{
+    color: var(--rs-white);
+}
+
+.rs-project-tags a{
+    background-color: var(--rs-gray);
+    padding: 0.2rem 0.8rem;
+    margin: 0.6rem 0.2rem 0.5rem 0;
+    border-radius: 0.3rem;
+    color: var(--rs-white);
+    text-decoration: none;
+    vertical-align: auto;
+    display: inline-flex;
+    transition: 0.3s all ease-in-out;
+}
+
+.rs-project-tags a:hover{
+    background-color: #3fbb71;
 }
 
 .rs-contact{
