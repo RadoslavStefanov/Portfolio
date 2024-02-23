@@ -126,17 +126,18 @@ h2{
 
 .rs-dec-1{
     position: absolute;
-    left: -5rem;
+    left: -2rem;
     transform: rotate(180deg);
-    width: 10vw;
-    top: 65rem;
+    width: 10rem;
+    top: 50rem;
 }
 
 .rs-dec-2{
     position: absolute;
     left: -5rem;
-    width: 10vw;
+    width: 12rem!important;
     top: 150rem;
+    opacity: 1%;
 }
 
 .rs-tech-carousel{
